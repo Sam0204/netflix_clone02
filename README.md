@@ -5,11 +5,10 @@
 
 [![Generic badge](https://img.shields.io/badge/View%20Live-Demo-orange?style=for-the-badge&label=View%20Live%20WebApp)](https://netflix-clone-ac744.web.app/)
 
-
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sam0204/netflix_clone02-main?logo=github&style=for-the-badge)](https://github.com/Sam0204/) 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Apurva-tech/unite?style=for-the-badge&logo=git)](https://github.com/Apurva-tech/) 
-[![GitHub stars](https://img.shields.io/github/stars/Apurva-tech/unite?style=for-the-badge)](https://github.com/Apurva-tech/unite/stargazers) 
-[![My stars](https://img.shields.io/github/stars/Apurva-tech?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/Apurva-tech/unite/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Sam0204/netflix_clone02-main?style=for-the-badge&logo=git)](https://github.com/Sam0204) 
+[![GitHub stars](https://img.shields.io/github/stars/Sam0204/netflix_clone02-main?style=for-the-badge)](https://github.com/Sam0204/netflix_clone02-main) 
+[![My stars](https://img.shields.io/github/stars/Sam0204?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&label=My%20stars)](https://github.com/Apurva-tech/unite/stargazers)
 
 
 
@@ -19,40 +18,41 @@
     
 ## Points to remember while testing the app
 
-1. If yarn module not present in code then you can download By Using `Yarn` OR `Yarn Install`.
-2. Then check `TMDB API` Key present or not. If present then go with 3rd step.
-3. Make sure the **URL** is starting with https
-4. While **scheduling a meet** make sure the start and end date follow a logical sequence or else it’ll show an error. 
-5. While testing the **Posture** bot, allow permissions for the camera and allow **notifications**, and **REFRESH** the page for changes to take effect. 
-6. Wait for the model to analyze, and check for **notifications** 
+1. You can download `zip file` of repository OR Clone this repo.
+2. First you have to go on root folder on that webapp. By using this command `cd app`.
+3. If yarn module not present in code then you can download By Using `yarn` OR `yarn install`.
+4. Then check `TMDB API` Key present or not in `app/src/api/apiConfig.js`. If present then go with 5th step.
+5. Open terminal and run the commant `yarn start` OR `npm start`. Now you can see the output in `http://localhost:3000/` on your default browser.
+6. While going to live demo link `https://netflix-clone-ac744.web.app/` of our website. Sometime if you refresh the page you see firebase documentation error. please `past` the above link again then you see website live demo. 
+7. While testing the `recommendations movies` scroll down of that movies you can see `similar` movies of that type. 
+8. The website is host on `Firebase`.
 
 ## Instructions
 
 
-1. `git clone https://github.com/Apurva-tech/unite.git` 
-2. `cd ./unite`
+1. `git clone https://github.com/Sam0204/netflix_clone02-main.git` 
+2. `cd ./app` (for going to the root folder)
 3. Install node dependencies 
-   - `npm install`
-4. Replace firebase API keys with your configurations
-5. Create a `.env` file 
-   - Add relevant credentials
-   - `cp .env.example .env` 
-5. `npm run dev`
-6. The app is now running at http://localhost:3030/landing 
+   - `yarn install` OR `npm install` (If not present yarn module).
+4. If `api key` is not present then go with 5th step.(If api key is present then drop the 5th step & go with 6th step) 
+5. Replace TMDB API keys with your configurations (`Sign in` on `TMDB` and generate api key).
+6. Then simply use `yarn start` OR `npm start` for seeing output on browser.
+7. The app is now running at http://localhost:3000/landing 
 
 
 ## Useful Links
 
-- [Deployed Website](https://unite-apurva.herokuapp.com/landing)
-- [Demo Video](https://youtu.be/OKKK1GOnlIU)
-- [Sprint Document](https://docs.google.com/presentation/d/11k8pLJPEV-XJwxIX4ysW9fKmHqFEZHcUWizFcFyVsns/edit?usp=sharing)
-- [Design Document](https://docs.google.com/document/d/1IJcEbbhsbQna-tgcnfV_9_RhXQi4SURlrl3-0HypArE/edit?usp=sharing)
+- [Deployed Website](https://netflix-clone-ac744.web.app/)
+- [Demo Video](https://www.youtube.com/watch?v=3lCWBglRtV8)
+- [Sprint Document]()
+- [Design Document]()
 
 ## Need help?
 
-Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/apurva866/) 
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/sandesh-powar-374889205/) 
 
-[![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)](https://www.instagram.com/mind.wrapper/) [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)](https://twitter.com/mindwrapper) [![Medium](https://img.shields.io/badge/Medium-follow-black.svg?logo=medium&logoColor=white)](https://medium.com/@apurva866)
+[![Instagram](https://img.shields.io/badge/Instagram-follow-purple.svg?logo=instagram&logoColor=white)]() [![Twitter](https://img.shields.io/badge/Twitter-follow-blue.svg?logo=twitter&logoColor=white)]() 
+
 
 ---------
 
@@ -97,7 +97,6 @@ if (youEnjoyed) {
 ![Capture11](https://user-images.githubusercontent.com/97906758/170831630-81349d27-af8b-4971-98aa-831dd03e4b06.PNG)
 ![Capture12](https://user-images.githubusercontent.com/97906758/170831636-56b131af-27d9-4808-b1eb-03d816cd17c5.PNG)
 ![Capture13](https://user-images.githubusercontent.com/97906758/170831643-104eb8c7-848e-4c3c-8865-86da12d895a9.PNG)
-
 
 
 
